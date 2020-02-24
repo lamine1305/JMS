@@ -23,4 +23,10 @@ public class producerResource {
         return "message envoyé";
 
     }
+    
+    @GetMapping("/test")
+    public void getTest()
+    {
+        System.out.println ("message envoyé");
+    }
 }
